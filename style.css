@@ -50,6 +50,10 @@ div.navigation img {
     hue-rotate(314deg) brightness(106%) contrast(104%);
 }
 
+.navigation a{
+    height: inherit;
+}
+
 .card {
     display: flex;
     flex-direction: row;
@@ -237,12 +241,12 @@ div.card-history {
 
 .article-img-container {
     width: fit-content;
-    height: fit-content;
+    height: 215px;
 }
 
 .article-img-container img {
     width: 350px;
-    height: 215px;
+    height: inherit;
     object-fit: cover;
 }
 
@@ -318,4 +322,98 @@ div.card-history {
 
 .article-desc br {
     display: none;
+}
+
+#book4 {
+    background-color: #16193b;
+}
+
+#book4 .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#book4 .content{
+    display: flex;
+    flex-direction: row;
+}
+
+#book4 .title {
+    color: white;
+}
+
+.diary {
+    display: flex;
+    flex-direction: row;
+
+    width: 80%;
+    height: 500px;
+    background-color: white;
+}
+
+.diary-pic {
+    width: fit-content;
+    height: fit-content;
+}
+
+.diary-pic img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.diary-text {
+    padding: 20px;
+}
+
+.move-pointer {
+    width: fit-content;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.move-pointer img {
+    filter: invert(100%) sepia(0%) saturate(18%)
+    hue-rotate(314deg) brightness(106%) contrast(104%);
+    width: 50px;
+    padding: 30px;
+}
+
+.move-pointer#to-left img {
+    transform: scaleX(-1);
+}
+
+#contact {
+    background-color: #d8e6fa;
+}
+
+#contact .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .content {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-self: center;
+}
+
+.contact-item {
+    padding: 100px 20px 100px 20px;
+    width: 120px;
+}
+
+.contact-item h6 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+    color: black;
+}
+
+.contact-item a {
+    text-decoration-line: none;
 }
